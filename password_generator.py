@@ -1,7 +1,7 @@
 import random
 import string
 
-def password_generator(len_pass = 8):
+def password_generator(len_pass = 8,z):
     ascii_options = string.ascii_letters
     number_options = string.digits
     punt_options = string.punctuation
